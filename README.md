@@ -41,28 +41,23 @@ Casbin官网：https://casbin.org/
 
 ## 可选项目列表
 
-### Casbin核心引擎（Golang）
+### 1. Casbin核心引擎（Golang）
 
-#### 描述
-
-Extend the Casbin model/policy grammar to support more features in Casbin core engine. This will first be done in Golang Casbin. Possibly applied to other language implementations.
-
-Some issues to work on:
-
-1. support pattern function in 3rd args of g: https://github.com/casbin/casbin/issues/337
-2. Resolve policy conflicts: https://github.com/casbin/casbin/issues/338
-3. Scaling ABAC Rules: https://github.com/casbin/casbin/issues/354
-4. Explain enforcement by informing matched rules: https://github.com/casbin/casbin/issues/355
-5. Make GetImplicitPermissionsForUser Deep: https://github.com/casbin/casbin/issues/357
-
-#### 技术要求
-
-1. Golang
-2. Casbin所涉及的其他语言
-
-#### 导师
-
-[罗杨 (hsluoyz)](https://github.com/hsluoyz), Casbin创始人
+1. 项目标题：Casbin核心引擎（Golang）
+2. 项目描述：Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。
+3. 项目难度：高
+4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 增强Casbin语法的表达能力，满足用户多样化的策略制定需求
+   - 优化Casbin在大规模规则集上（百万以上）的策略评估性能
+   - 解决Casbin Golang主仓库&相关仓库中的issues：https://github.com/casbin/casbin/issues
+8. 项目技术要求：
+   - 熟悉Golang语言
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin
 
 ## 要求
 
