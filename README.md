@@ -1,6 +1,6 @@
-# 开源软件供应链点亮计划-暑期2020 
+## 开源软件供应链点亮计划-暑期2020 
 
-## 开源软件供应链点亮计划-暑期2020”是什么？
+### 开源软件供应链点亮计划-暑期2020”是什么？
 
 “开源软件供应链点亮计划-暑期2020”（以下简称 暑期2020）是由中科院软件所与 openEuler 社区共同举办的一项面向高校学生的暑期活动，旨在鼓励在校学生积极参与开源软件的开发维护，促进国内优秀开源软件社区的蓬勃发展。
 
@@ -11,7 +11,7 @@
 1. 官网：https://isrc.iscas.ac.cn/summer2020
 2. 官方新闻：http://www.iscas.ac.cn/xshd2016/xshy2016/202004/t20200426_5563484.html
 
-## 活动的主要参与方有哪些？
+### 活动的主要参与方有哪些？
 
 活动组织方：中国科学院软件研究所、openEuler 社区主办，中国科学院软件研究所中国科学院软件研究所南京软件技术研究院，华为技术有限公司、中科软科技股份有限公司、深圳华锐金融技术股份有限公司等公司协办，此外，活动组组委会还联合国内公司、科研院所和各大高校共同推广此次活动。
 
@@ -21,23 +21,18 @@
 2. 社区：社区提供项目列表和描述，并安排项目对应的导师，导师与申请者沟通方案、并从申请者中选中一位承接项目。在为期三个月的开发周期中，导师指导学生进行对应项目的开发工作。
 3. 导师：社区针对每一个项目指定一个导师，与学生一起制定合适的开发计划和方案，指导学生按计划完成开发。
 
-## 项目的奖金额度是多少，如何确定？
+### 项目的奖金额度是多少？
 
-项目难度分为高、中、低三档，对应税前奖金分别为高（12000 元）、中（9000 元）、低（6000 元）。难度分级由社区根据项目任务自行决定。主办方会资助最终有学生申请的项目，在预算范围内主办方会尽可能的支持更多的项目，预期是 200+ 的项目。我们会根据社区反馈的情况，提供少量更大奖金的项目。
-
-## 学生如何报名？
-
-详见：https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名
+项目难度分为高、中、低三档，对应税前奖金分别为高（12000 元）、中（9000 元）、低（6000 元）。
 
 ## Casbin开源项目介绍
 
-Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java, Node.js, Javascript (React), Python, PHP, .NET, Delphi, Rust等多种语言。Casbin由北京大学罗杨博士创立于2017年，核心维护团队有数十人。Casbin在业界具有广泛影响力。目前已经被Intel、VMware、Orange、RedHat、T-Mobile等公司开源使用，被腾讯云、Cisco、Microsoft、Verizon等公司闭源使用。具体详见Casbin主页。Casbin Go主项目目前GitHub 6600+ stars，加上所有语言的实现、插件等可达到10000+ stars。Casbin曾经在国际上多次宣讲：
+Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java, Node.js, Javascript (React), Python, PHP, .NET, Delphi, Rust等多种语言。Casbin由北京大学罗杨博士创立于2017年，核心维护团队有数十人。Casbin在业界具有广泛影响力。目前已经被Intel、VMware、Orange、RedHat、T-Mobile等公司开源使用，被腾讯云、Cisco、Verizon等公司闭源使用。具体详见Casbin主页。Casbin Go主项目目前GitHub 6700+ stars，加上所有语言的实现、插件等可达到10000+ stars。Casbin曾经在国际上多次宣讲：
 
-1. 新加坡政府技术部门Open Government Products：https://www.youtube.com/watch?v=OTT84oplR9o ；
-2. 俄罗斯最大在线旅游平台tutu.ru：https://www.youtube.com/watch?v=Z5dUxH4PqYM 
-3. 2019年香港互联网经济峰会IES上北京大学沈晴霓教授：https://ies2019.cyberport.hk/wp-content/uploads/2019/04/Cyber_Qingni-Shen.pdf
+1. 新加坡政府技术部门Open Government Products：https://www.youtube.com/watch?v=OTT84oplR9o
+2. 俄罗斯最大在线旅游平台tutu.ru：https://www.youtube.com/watch?v=Z5dUxH4PqYM
 
-Casbin官网：https://casbin.org/
+具体请了解Casbin官网：https://casbin.org/
 
 ## 可选项目列表
 
@@ -58,8 +53,10 @@ Casbin官网：https://casbin.org/
    - 熟悉Git、GitHub相关操作
 9. 相关的开源软件仓库列表：
    - https://github.com/casbin/casbin
+   
+所有可选项目详见：https://github.com/casbin/Summer2020#可选项目列表
 
-## 要求
+## 候选人要求
 
 ### 工作职责：
 
@@ -82,18 +79,21 @@ Casbin官网：https://casbin.org/
 - 在GitHub较为活跃，有自己的开源项目，或参与过知名开源项目；
 - 可以在项目结束后继续长期参与开源社区的开发、建设或维护。
 
-具体项目介绍：https://github.com/casbin/Summer2020#可选项目列表
-
 
 ## 投递要求
 
-详见：https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名
+学生可在2020年5月15日至6月20日之间，针对感兴趣的项目与Casbin社区导师沟通项目细节和方案，完善项目申请书。
+
+学生在完成项目申请书后，于2020年6月1日至6月20日期间参考[项目申请模板](https://isrc.iscas.ac.cn/summer2020/help/assets/项目申请模板.txt)中的要求发送申请邮件给组委会邮箱summer2020@iscas.ac.cn，提交申请材料报名。组委会将收到的申请审核后交给社区选择承担项目的学生，并于6月30日公布中选项目及承担学生的名单。
+
+【注意】以上信息如有更新，以官方通知为准：https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名
+
 
 ## 联系方式
 
 如对“暑期2020”活动本身有任何疑问，请联系活动官方：https://isrc.iscas.ac.cn/summer2020/#/contactus
 
-Casbin社区管理员、导师联系方式：
+Casbin社区导师联系方式：
 
 1. QQ群：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
 2. Gitter：https://gitter.im/casbin/summer
