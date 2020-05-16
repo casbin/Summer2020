@@ -54,7 +54,28 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 9. 相关的开源软件仓库列表：
    - https://github.com/casbin/casbin
    - https://github.com/casbin
-   
+
+### 2. Casbin分布式高可用（Rust）
+
+1. 项目标题：Casbin分布式高可用（Rust）
+2. 项目描述：Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力
+3. 项目难度：高
+4. 项目社区导师：[江成 (GopherJ)](https://github.com/GopherJ)
+5. 导师联系方式：cacathecafe@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 基于Raft, Tcp (with TLS)实现单机、分布式环境中不同Casbin实例之间的规则集同步
+   - 正确，充足的单元/集成测试，确保Casbin在分布式环境下运行的正确性
+   - 支持动态增、删节点(AKA. dynamic membership)
+   - 探索如何将规则集分组，映射到不同节点，确定规则集的增，删以及某个请求的权限计算都在正确的节点进行,以此减轻单机的内存压力
+   - 解决Casbin Rust主仓库&相关仓库中的issues：https://github.com/casbin/casbin-rs/issues
+8. 项目技术要求：
+   - 熟悉Rust语言
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin-rs
+   - https://github.com/casbin-rs
+
 所有可选项目详见：https://github.com/casbin/Summer2020#可选项目列表
 
 ## 候选人要求
@@ -76,7 +97,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 ### 具有以下条件者优先：
 
 - 熟悉计算机网络、网络安全，有相关项目经验；
-- 熟悉Go语言、分布式系统、微服务架构，有相关项目经验；
+- 熟悉Go, Rust等语言、分布式系统、微服务架构，有相关项目经验；
 - 在GitHub较为活跃，有自己的开源项目，或参与过知名开源项目；
 - 可以在项目结束后继续长期参与开源社区的开发、建设或维护。
 
