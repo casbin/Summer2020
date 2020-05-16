@@ -27,11 +27,7 @@
 
 ## 学生如何报名？
 
-2020 年 5 月 15 日活动正式开始，社区的项目列表也会公布。学生针对感兴趣的社区提供的项目，可以开始与指定的导师联系沟通项目细节和方案，完善项目计划和方案。
-
-学生的报名申请是 2020 年 6 月 1 日开始，6 月 15 日截止。6 月 15 日之前都可以报名。
-
-具体报名方法会在 5 月 15 日公布。
+详见：https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名
 
 ## Casbin开源项目介绍
 
@@ -96,7 +92,13 @@ Some issues to work on:
 
 ## 投递要求
 
-1. 工作时间：2020年7月1日-2020年9月30日
-2. 工作地点：远程
-3. 如有意向请发【中文简历PDF】至：admin@casbin.org 并在Gitter：https://gitter.im/casbin/summer 进行自我介绍，然后围绕所选项目参与社区贡献、联系导师、提交代码等。
-4. 官方申请截止时间为：2020年6月15日，请在截止前完成项目计划书投递，项目计划书中请注明GitHub账号。
+详见：https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名
+
+## 联系方式
+
+如对“暑期2020”活动本身有任何疑问，请联系活动官方：https://isrc.iscas.ac.cn/summer2020/#/contactus
+
+Casbin社区管理员、导师联系方式：
+
+1. QQ群：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
+2. Gitter：https://gitter.im/casbin/summer
