@@ -53,6 +53,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - 熟悉Git、GitHub相关操作
 9. 相关的开源软件仓库列表：
    - https://github.com/casbin/casbin
+   - https://github.com/casbin
    
 所有可选项目详见：https://github.com/casbin/Summer2020#可选项目列表
 
@@ -82,18 +83,14 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 ## 投递要求
 
-学生可在2020年5月15日至6月20日之间，针对感兴趣的项目与Casbin社区导师沟通项目细节和方案，完善项目申请书。
+申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-学生在完成项目申请书后，于2020年6月1日至6月20日期间参考[项目申请模板](https://isrc.iscas.ac.cn/summer2020/help/assets/项目申请模板.txt)中的要求发送申请邮件给组委会邮箱summer2020@iscas.ac.cn，提交申请材料报名。组委会将收到的申请审核后交给社区选择承担项目的学生，并于6月30日公布中选项目及承担学生的名单。
+### 1. 联系社区（2020年5月15日至6月20日）
 
-【注意】以上信息如有更新，以官方通知为准：https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名
+1. 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org 
+1. 在Gitter进行自我介绍：https://gitter.im/casbin/summer
+2. 加入QQ群：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
 
+### 2. 官网投递（2020年6月1日至6月20日）
 
-## 联系方式
-
-如对“暑期2020”活动本身有任何疑问，请联系活动官方：https://isrc.iscas.ac.cn/summer2020/#/contactus
-
-Casbin社区导师联系方式：
-
-1. QQ群：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
-2. Gitter：https://gitter.im/casbin/summer
+详见：https://isrc.iscas.ac.cn/summer2020/help/student.html#学生如何报名
