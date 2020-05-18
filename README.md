@@ -109,8 +109,8 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 ### 1. 联系社区（2020年5月15日至6月20日）
 
 1. 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org 
-1. 在Gitter进行自我介绍：https://gitter.im/casbin/summer
-2. 加入QQ群：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
+2. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
+3. 加入《Casbin软件所点亮计划-暑期2020-官方群》（QQ小群）：[632575275](https://shang.qq.com/wpa/qunwpa?idkey=699b016a2892c9e0946047622eec9ae63fc2aeff86ea48a35a075d24c465cbd4) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
 
 ### 2. 官网投递（2020年6月1日至6月20日）
 
