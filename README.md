@@ -76,6 +76,25 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin-rs
    - https://github.com/casbin-rs
 
+### 3. Casbin服务化（C++）
+
+1. 项目标题：Casbin服务化（C++）
+2. 项目描述：基于C++版本的casbin探索casbin服务化的可能性，目标是在微服务架构中提供开箱即用的中心化的授权服务
+3. 项目难度：中
+4. 项目社区导师：[谢非 (Joey)](https://github.com/xcaptain)
+5. 导师联系方式：joey.xf@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 使用C++语言实现正确、高性能的casbin基础功能
+   - 添加docker、k8s部署支持
+   - 使用grpc和protobuf对外提供服务调用
+   - 优化在大数据和分布式环境下casbin的性能
+8. 项目技术要求：
+   - 熟悉C++语言
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin-cpp
+
 所有可选项目详见：https://github.com/casbin/Summer2020#可选项目列表
 
 ## 候选人要求
