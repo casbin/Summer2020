@@ -55,7 +55,27 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin
    - https://github.com/casbin
 
-### 2. Casbin分布式高可用（Rust）
+### 2. Casbin分布式插件 （Golang)
+1. 项目标题：Casbin分布式插件（Golang)
+2. 项目描述：Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力。在未来此插件可以替代 watcher。
+3. 项目难度：高
+4. 项目社区导师：[刘子轩 (Nodece)](https://github.com/nodece) 
+5. 导师联系方式：nodeces@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 基于Raft, Tcp (with TLS)实现单机、分布式环境中不同Casbin实例之间的规则集同步
+   - 正确，充足的单元/集成测试，确保Casbin在分布式环境下运行的正确性
+   - 支持动态增、删节点(AKA. dynamic membership)
+   - 探索如何将规则集分组，映射到不同节点，确定规则集的增，删以及某个请求的权限计算都在正确的节点进行,以此减轻单机的内存压力
+   - 解决Casbin Golang主仓库&相关仓库中的issues：https://github.com/casbin/casbin/issues
+8. 项目技术要求：
+   - 熟悉Golang语言
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin
+   - https://github.com/casbin
+
+### 3. Casbin分布式高可用（Rust）
 
 1. 项目标题：Casbin分布式高可用（Rust）
 2. 项目描述：Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力
@@ -76,7 +96,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin-rs
    - https://github.com/casbin-rs
 
-### 3. Casbin服务化（C++）
+### 4. Casbin服务化（C++）
 
 1. 项目标题：Casbin服务化（C++）
 2. 项目描述：基于C++版本的casbin探索casbin服务化的可能性，目标是在微服务架构中提供开箱即用的中心化的授权服务
@@ -97,7 +117,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 所有可选项目详见：https://github.com/casbin/Summer2020#可选项目列表
 
-### 4. PyCasbin完善和优化
+### 5. PyCasbin完善和优化
 
 1. 项目标题：PyCasbin完善和优化
 2. 项目描述：PyCasbin 是Casbin的Python版实现，功能和 Casbin（Golang）基本一致。目前，PyCasbin实现了Casbin的主要功能，但还有少许功能尚未实现，另外代码质量还有调优的可能，PyCasbin对周边框架的支持不够完善，所以我们希望对PyCasibn进行完善和优化，同时需要对PyCasin的生态予以完善。
@@ -117,7 +137,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/pycasbin
    - https://github.com/pycasbin
 
-### 5. PHP-Casbin生态完善
+### 6. PHP-Casbin生态完善
 
 1. 项目标题：PHP-Casbin生态完善
 2. 项目描述：[PHP-Casbin](https://github.com/php-casbin/php-casbin) 是Casbin的PHP版实现，功能和 Casbin（Golang）基本一致。目前，PHP-Casbin已经支持对`Laravel` `ThinkPHP` `Yii` `Codeigniter` `CakePHP` 等主流框架的适配。目前还需要开发对`Symfony`的扩展，C级别的框架进行支持，例如：`Phalcon Framework`，基于Swoole的框架支持，例如： `Hyperf` `easyswoole`等。除此之外，我们也希望Casbin有个PHP的C/C++扩展，以提升性能。
@@ -138,7 +158,27 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/php-casbin/php-casbin
    - https://github.com/php-casbin
 
-### 6. 项目标题：Casbin.NET生态完善
+### 7. Node-casbin 生态完善
+
+1. 项目标题：Node-Casbin 生态完善
+2. 项目描述：Node-Casbin 在 Node.js 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前 Node-Casbin 已经对`koa`、`egg`、`express`、`hapi` 等主流框架提供了权限认证中间件，还需要对`nest`、`meteor` 提供支持。adapter 是 Casbin 持久化策略的插件，目前我们已经支持`TypeORM`、`Sequelize`，这些都是 ORM, 因此我们还需要考虑提供纯数据库驱动的 adapter。
+3. 项目难度：低
+4. 项目社区导师：[刘子轩(nodece)](https://github.com/nodece)
+5. 导师联系方式：nodeces@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 实现 `nest`、`meteor` 权限认证中间件
+   - 实现纯数据库驱动的 adapter: PostgresQL, Mysql, Microsoft SQL Server, Oracle, SQLite, IBM Db2.
+   - 解决 Node-Casbin 主仓库&相关仓库中的 issues：https://github.com/casbin/node-casbin/issues
+8. 项目技术要求：
+   - 熟悉 TypeScript 语言
+   - 熟悉 SQL
+   - 熟悉 Git、GitHub 相关操作   
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/node-casbin
+   - https://github.com/node-casbin
+
+### 8. 项目标题：Casbin.NET生态完善
 
 1. 项目标题：Casbin.NET生态完善
 2. 项目描述：Casbin.NET是Casbin的Dotnet版实现，目前仅完成核心功能，需要对项目进行进一步的优化和完善。目前计划提供一个完成核心能力开箱即用的服务化(RESTful)的解决方案(Casbin.SamNet)，并且适配Steeltoe。
