@@ -183,7 +183,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 1. 项目标题：Casbin.NET生态完善
 2. 项目描述：Casbin.NET是Casbin的Dotnet版实现，目前仅完成核心功能，需要对项目进行进一步的优化和完善。目前计划提供一个完成核心能力开箱即用的服务化(RESTful)的解决方案(Casbin.SamNet)，并且适配Steeltoe。
 3. 项目难度：高
-4. 项目社区导师：周而易始
+4. 项目社区导师：[周而易始(huazhikui)](https://github.com/huazhikui)
 5. 导师联系方式：huazhikui@126.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
