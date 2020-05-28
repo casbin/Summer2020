@@ -138,6 +138,27 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/php-casbin/php-casbin
    - https://github.com/php-casbin
 
+### 6. 项目标题：Casbin.NET生态完善
+
+1. 项目标题：Casbin.NET生态完善
+2. 项目描述：Casbin.NET是Casbin的Dotnet版实现，目前仅完成核心功能，需要对项目进行进一步的优化和完善。目前计划提供一个完成核心能力开箱即用的服务化(RESTful)的解决方案(Casbin.SamNet)，并且适配Steeltoe。
+3. 项目难度：高
+4. 项目社区导师：周而易始
+5. 导师联系方式：huazhikui@126.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 完善和优化Casbin.NET，并解决https://github.com/casbin/Casbin.NET/issues
+   - 增加并完成Casbin.SamNet解决方案（基于IdentityServer4），提供完整的权限管理、授权/认证服务（仅后端）
+   - 通过Steeltoe完成与Spring Cloud生态圈的融合
+
+8. 项目技术要求：
+   - 熟悉C#、.net core
+   - 熟悉OAuth 2.0
+   - 熟悉java和spring
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/Casbin.NET
+   - https://github.com/casbin-net/EFCore-Adapter
+
 ## 候选人要求
 
 ### 工作职责：
