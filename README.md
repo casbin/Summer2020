@@ -218,6 +218,27 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/Casbin.NET
    - https://github.com/casbin-net/EFCore-Adapter
 
+### 10. Casbin 仪表盘Web界面（前端React + Javascript，后端Golang）
+
+1. 项目标题：Casbin 仪表盘Web界面（前端React + Javascript，后端Golang）
+2. 项目描述：Casbin-Dashboard（https://dashboard.casbin.org/）是我们近期启动的一个项目，由于Casbin通常在后台运行，没有界面，只有API，配置起来不够友好。因此我们打算开发一个Casbin的图形化界面，即Casbin Dashboard。我们希望Casbin Dashboard能够帮助Casbin的用户，尤其是对代码不熟悉的运维人员，能够通过图形化界面的操作，管理Casbin的模型、策略、正确性、集群运行状态等等。未来一切与Casbin有关的，可图形化的操作，都会集成到Casbin Dashboard中。
+3. 项目难度：高
+4. 项目社区导师：[张合龙 (BetaCat0)](https://github.com/BetaCat0)
+5. 导师联系方式：outman99@hotmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 完成一个可用的Casbin 仪表盘Web界面，可以对接Casbin library，甚至Casbin-Server
+   - 用户可以通过Web界面完成策略查看、修改、添加、删除，也可以在线运行测试用例，保证策略正确性
+   - 用户可以通过Web界面管理多个Casbin的实体，如Model，Adapter，Enforcer等等（未来甚至可以对Casbin集群进行管理）
+   - 解决Casbin Dashboard主仓库&相关仓库中的issues：https://github.com/casbin/casbin-dashboard/issues
+8. 项目技术要求：
+   - 熟悉React、Javascript语言（前端）
+   - 熟悉Golang语言（后端）
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin-dashboard
+   - https://github.com/casbin/casbin
+
 所有可选项目详见：https://github.com/casbin/Summer2020#可选项目列表
 
 ## 候选人要求
