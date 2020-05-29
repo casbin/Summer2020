@@ -271,11 +271,12 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 7. 项目产出要求：
    - 根据 Casbin 现有的功能，依赖 Kubernetes 实现一个分布式、可管理多种应用的权限策略的访问控制服务端。(优先考虑分布式)
    - 该应用需提供管理端，可提供安装服务端到 Kubernetes 集群，查看应用日志，可管理应用策略
+   - 实现把云原生项目接入Casbin访问控制的插件，如k8s的插件：https://github.com/casbin/casbin/issues/470 ，更多的插件实现对象参考：https://www.openpolicyagent.org/docs/latest/ecosystem/ ，我们需要实现类似的插件，扩大我们的生态
 8. 项目技术要求：
    - 熟悉 Golang、Kubernetes
    - 具备一定的分布式、云原生应用知识
 9. 相关的开源软件仓库列表：
-
+   - https://github.com/casbin/casbin
 
 所有可选项目详见：https://github.com/casbin/Summer2020#可选项目列表
 
