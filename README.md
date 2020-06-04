@@ -36,6 +36,8 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 ## 可选项目列表
 
+下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
+
 ### 1. Casbin核心引擎（Golang）
 
 1. 项目标题：Casbin核心引擎（Golang）
